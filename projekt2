@@ -1,0 +1,7 @@
+echo "# test_repo" >> README.md
+git init
+git add Projekt2.R
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/aleksandraked/test_repo.git
+git push -u origin main
